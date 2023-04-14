@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  web:
+    build:
+      context: ./react-test
+      dockerfile: Dockerfile
+    container_name: fe-js
+    ports:
+      - 8080:81  
+  be:
+    build:
+      context: ./fiber-be
+      dockerfile: Dockerfile
+    container_name: be-go
+    ports:
+      - 8081:3000  

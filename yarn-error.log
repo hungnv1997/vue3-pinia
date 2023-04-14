@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\HungNV10\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add reat-router@5.1
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Redis\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jre17.0.5\bin;C:\tools\dart-sdk\bin;C:\tools\flutter\bin;C:\tools\flutter;C:\Users\HungNV10\AppData\Roaming\nvm;C:\Program Files\nodejs;;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\HungNV10\AppData\Local\Microsoft\WindowsApps;;C:\Users\HungNV10\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HungNV10\AppData\Roaming\npm;C:\Users\HungNV10\go\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.20.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/reat-router: Not found
+      at Request.params.callback [as _callback] (C:\Users\HungNV10\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\HungNV10\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (C:\Users\HungNV10\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (C:\Users\HungNV10\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1333:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
